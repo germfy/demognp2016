@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 2
+  domain: mybluemix.net
+  name: demognp2016
+  host: demognp2016
+  disk_quota: 1024M
+  services:
+  - Texto a voz-ut
